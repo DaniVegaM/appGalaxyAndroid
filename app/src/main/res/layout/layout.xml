@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_background">
+
+    <Button
+        android:id="@+id/btnMercury"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"
+        android:tag="mercury"
+        android:onClick="openPlanet"/>
+
+    <Button
+        android:id="@+id/btnVenus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:tag="venus"
+        android:onClick="openPlanet"/>
+
+    <!-- Agrega más botones para los otros planetas con su respectivo "tag" -->
+
+</RelativeLayout>

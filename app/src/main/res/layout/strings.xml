@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Planetas</string>
+    <string name="mercury_info">Mercurio es el planeta más cercano al Sol.</string>
+    <string name="venus_info">Venus es el segundo planeta del sistema solar.</string>
+    <!-- Agrega más información para los otros planetas -->
+</resources>

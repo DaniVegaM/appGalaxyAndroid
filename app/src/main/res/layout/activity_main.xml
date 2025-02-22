@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_background">
+
+    <Button
+        android:id="@+id/btnEarth"
+        android:layout_width="47dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="376dp"
+        android:background="@android:color/transparent"
+        android:onClick="openPlanet"
+        android:tag="earth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMercury"
+        android:layout_width="13dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="436dp"
+        android:background="@android:color/transparent"
+        android:onClick="openPlanet"
+        android:tag="mercury"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVenus"
+        android:layout_width="32dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="392dp"
+        android:background="@android:color/transparent"
+        android:onClick="openPlanet"
+        android:tag="venus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnJupiter"
+        android:layout_width="87dp"
+        android:layout_height="298dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="320dp"
+        android:background="@android:color/transparent"
+        android:onClick="openPlanet"
+        android:tag="jupiter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSaturn"
+        android:layout_width="79dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="328dp"
+        android:background="@android:color/transparent"
+        android:onClick="openPlanet"
+        android:tag="saturn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUran"
+        android:layout_width="60dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="420dp"
+        android:background="@android:color/transparent"
+        android:onClick="openPlanet"
+        android:tag="uranus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNeptun"
+        android:layout_width="58dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="316dp"
+        android:background="@android:color/transparent"
+        android:onClick="openPlanet"
+        android:tag="neptune"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMars"
+        android:layout_width="47dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="384dp"
+        android:background="@android:color/transparent"
+        android:onClick="openPlanet"
+        android:tag="mars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
